@@ -1,0 +1,25 @@
+{
+  "name": "vp1",
+  "version": "1.0.0",
+  "description": "veebiprogrammeerimise express.js projekt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kertots@github.com/kertots/vp1.git"
+  },
+  "keywords": [
+    "tlu"
+  ],
+  "author": "Kert-Jan Ots",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kertots/vp1/issues"
+  },
+  "homepage": "https://github.com/kertots/vp1#readme",
+  "dependencies": {
+    "express": "~4.16.1"
+  }
+}
