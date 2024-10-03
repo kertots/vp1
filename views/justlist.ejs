@@ -16,10 +16,15 @@
 		<hr>
 
         <ul>
-            <li><a href="/timenow">Ajainfo</a></li>
-            <li><a href="/justlist">Vanasonad</a></li>
-            <li><a href="/regvisit">Registreeri end</a></li>
+            <li><a href="/">Avaleht</a></li>
         </ul>
+        <h2><%= h2 %></h2>
+        <ul>
+            <% listData.forEach(function(item){%>
+			<li><%= item %></li>
+			<% }); %>
+        </ul>
+
 
 	</body>
 </html>
